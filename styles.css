@@ -25,14 +25,11 @@ main{
     background-color: var(--main-card-bg-color);
     border-radius: 8px;
     margin: 171px 260px 129px 260px;
-    margin: auto;
 
 }
 .card{
     width: 19.188rem;
-    height: 31.25rem ;
-  
-    
+    height: 31.25rem ;    
 }
 
 
@@ -170,10 +167,23 @@ button{
         margin-bottom: 25px;
     }
 
+
+@media screen and (max-width:768px){
+  body{
+      margin: 0;
+  }
+}
+
+@media screen and (max-width: 425px){
+    main{
+        margin: 10px 10px;
+    }
+}
     
 @media screen and (max-width: 375px){
     
     main{
+        margin: 10px auto;
         width: 327px;
         height: 1325px;
         grid-template-columns: 327px;
